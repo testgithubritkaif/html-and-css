@@ -1,0 +1,37 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 1);
+}
+#opacity{
+    background-color: green;
+    opacity: 0.4;
+} */
+#transi{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition:margin-top 2s ease-in 0.2s;
+
+}
+#transi:hover{
+    background-color: red;
+    margin-top: 400px;
+    transform: rotate(45deg);
+
+}
+h3{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: margin-top 2s ease-in-out 0.2s;
+    text-align: center;
+}
+h3:hover{
+    background-color: brown;
+    margin-top: 400px;
+}

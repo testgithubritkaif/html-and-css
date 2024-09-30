@@ -1,0 +1,40 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px lightseagreen solid;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: gray;
+    font-size: 50px;
+}
+
+#outbox{
+    height: 50px;
+    width: 90%;
+    border: 2px solid lightseagreen;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+#innbox{
+    height: 50px;
+    width: 80px;
+    color: black;
+    font-size: 24px;
+}

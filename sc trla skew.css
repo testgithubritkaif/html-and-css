@@ -1,0 +1,20 @@
+div{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+}
+#one{
+    transform: scale(2,0.5);
+}
+#two{
+    transform:  translate(50px,50px);
+}
+#three{
+    transform: skew(30deg);
+}
+:nth-of-type(2n){
+    background-color: burlywood;
+}
